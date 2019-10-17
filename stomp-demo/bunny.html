@@ -107,7 +107,7 @@ else {
 }
 
 // Stomp.js boilerplate
-var ws = new WebSocket('ws://' + window.location.hostname + ':15674/ws');
+var ws = new WebSocket('wss://' + window.location.hostname + ':15673/ws');
 var client = Stomp.over(ws);
 
 client.debug = function() {
