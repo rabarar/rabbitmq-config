@@ -17,6 +17,18 @@ Log files are located at:
 /usr/local/var/log/rabbitmq/
 ```
 
+Run the echo.html application by using the python script to start https server
+```
+python3 ./server.py
+```
+
+And then go to URL:
+```
+https://localhost:8000/echo.html
+```
+
+### Setup
+
 1 install with brew:
 	brew install rabbitmq
 
