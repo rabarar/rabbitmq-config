@@ -6,9 +6,16 @@
 
 File Locations:
 
-Configuration files are located at: `/usr/local/etc/rabbitmq/`
+Configuration files are located at:
 
-Log files are located at: `/usr/local/var/log/rabbitmq/`
+```
+/usr/local/etc/rabbitmq/
+```
+
+Log files are located at:
+```
+/usr/local/var/log/rabbitmq/
+```
 
 1 install with brew:
 	brew install rabbitmq
