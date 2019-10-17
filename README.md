@@ -4,6 +4,13 @@
 
 ### The goal is to configure rabbitmq so that only SSL connections are serviced - for both clients as well as websockets (STOMP)
 
+File Locations:
+
+Configuration files are located at:
+	/usr/local/etc/rabbitmq/
+
+Log files are located at:
+	/usr/local/var/log/rabbitmq/
 
 1 install with brew:
 	brew install rabbitmq
